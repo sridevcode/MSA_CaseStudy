@@ -7,20 +7,23 @@ import org.springframework.stereotype.Component;
 @Component
 public class ItemConfiguration {
 	
-	private String itemName;
-	private String itemDescription;
-	public String getItemName() {
-		return itemName;
+	private String defaultItemName;
+	private String defaultItemDescription;
+	public String getDefaultItemName() {
+		return defaultItemName;
 	}
-	public void setItemName(String itemName) {
-		this.itemName = itemName;
+	public void setDefaultItemName(String defaultItemName) {
+		this.defaultItemName = defaultItemName;
 	}
-	public String getItemDescription() {
-		return itemDescription;
+	public String getDefaultItemDescription() {
+		return defaultItemDescription;
 	}
-	public void setItemDescription(String itemDescription) {
-		this.itemDescription = itemDescription;
+	public void setDefaultItemDescription(String defaultItemDescription) {
+		this.defaultItemDescription = defaultItemDescription;
 	}
+	
+	
+	
 	
 	
 	

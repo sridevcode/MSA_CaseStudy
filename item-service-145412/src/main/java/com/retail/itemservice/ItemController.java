@@ -53,7 +53,7 @@ public class ItemController {
 		
 		public Item getFallBackCustomereDetails() {
 			//return new Item(10000L,"Sample Item","Fall back item",10.0f,0);
-			return new Item(10000L,itemConfig.getItemName(),itemConfig.getItemDescription(),10.0f,0);
+			return new Item(10000L,itemConfig.getDefaultItemName(),itemConfig.getDefaultItemDescription(),40000.0f,0);
 		}
 
 }
